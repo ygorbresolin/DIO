@@ -1,0 +1,258 @@
+@import url("reset.css");
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px 0 24px;
+  background-color: #ffffff;
+  height: 65px;
+}
+
+.logo_yt {
+  margin-left: 24px;
+  margin-top: 16px;
+  width: 90px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.busca {
+  margin-top: 16px;
+  display: flex;
+  border: 1px solid #cccccc;
+  height: 42px;
+}
+
+.input {
+  width: 348px;
+  height: 40px;
+  margin-left: 0px;
+  border: 0px;
+  background-color: #ffffff;
+}
+
+.search {
+  background-color: #f8f8f8;
+  border-left: 1px solid #cccccc;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search img {
+  width: 24px;
+  height: 24px;
+}
+
+.icones_perfil {
+  width: 130px;
+  height: 34px;
+  gap: 24px;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+#main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 75px;
+  margin-top: 35px;
+  gap: 16px;
+}
+
+.video_principal {
+  width: 952px;
+  height: 537px;
+}
+
+.titulo {
+  width: 871px;
+  height: 23px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.icons_comp {
+  width: 902px;
+  height: 42px;
+  gap: 42px;
+  margin-left: 75px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.channel_infos {
+  width: 160px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.channel_infos h5 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.channel_infos h6 {
+  width: 106px;
+  font-size: 14px;
+  font-weight: 400;
+  
+}
+
+.icons_comp button {
+  background-color: #cc0000;
+  color: #ffffff;
+  width: 159px;
+  height: 40px;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 14px;
+  border: 0px;
+  margin: 0 18px;
+}
+
+.like {
+  width: 63px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 0 18px;
+}
+
+.like img {
+  width: 24px;
+  height: 24px;
+}
+
+.like p {
+  width: 31px;
+  height: 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.deslike {
+  width: 100px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 0 18px;
+}
+
+.deslike img {
+  width: 24px;
+  height: 24px;
+}
+
+.deslike p {
+  width: 68px;
+  height: 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.compart {
+  width: 115px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 0 18px;
+}
+
+.compart img {
+  width: 24px;
+  height: 24px;
+}
+
+.compart p {
+  width: 83px;
+  height: 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.downl {
+  width: 95px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 0 18px;
+}
+
+.downl img {
+  width: 24px;
+  height: 24px;
+}
+
+.downl p {
+  width: 63px;
+  height: 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.main_t {
+  display: flex;
+}
+
+.sidebar {
+  width: 160px;
+  height: 938px;
+  margin-top: 35px;
+  gap: 16px;
+  margin-left: 120px;
+}
+
+.vd {
+  display: flex;
+  justify-content: center;
+}
+
+.vd img {
+  width: 160px;
+  height: 90px;
+}
+
+.titulo_sidebar {
+  width: 196px;
+  height: 32px;
+  margin-left: 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.descricao_sidebar {
+  width: 196px;
+  height: 14px;
+  margin-left: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 7px;
+}
+
+.vizualizacoes_sidebar {
+  width: 196px;
+  height: 28px;
+  margin-left: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 7px;
+}
