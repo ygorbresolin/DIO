@@ -1,0 +1,164 @@
+@import url("reset.css");
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px 0 24px;
+  background-color: #ffffff;
+  height: 65px;
+}
+
+.topo_logo img {
+  background-color: #ffffff;
+}
+
+.logo_yt {
+  margin-left: 24px;
+  margin-top: 16px;
+  width: 90px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.busca {
+  margin-top: 16px;
+  display: flex;
+  border: 1px solid #cccccc;
+  height: 42px;
+}
+
+.input {
+  width: 348px;
+  height: 40px;
+  margin-left: 0px;
+  border: 0px;
+  background-color: #ffffff;
+}
+
+.search {
+  background-color: #f8f8f8;
+  border-left: 1px solid #cccccc;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search img {
+  width: 24px;
+  height: 24px;
+}
+
+.icones_perfil {
+  width: 130px;
+  height: 34px;
+  gap: 24px;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.icones_perfil img {
+  background-color: #ffffff;
+}
+
+#main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.menu_lateral {
+  width: 218px;
+  height: 968px;
+  padding: 24px;
+  gap: 22px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu_lateral div {
+  background-color: #ffffff;
+}
+
+.menu_lateral div p {
+  background-color: #ffffff;
+}
+
+.item_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.item_menu img {
+  width: 24px;
+  height: 24px;
+}
+
+.item_menu p {
+  font-size: 14px;
+  font-weight: 700;
+  width: 117px;
+  height: 16px;
+}
+
+.main {
+  display: flex;
+}
+
+.grid_container {
+  width: 282px;
+  height: 262px;
+  display: grid;
+  grid-template-columns: repeat(4, 282px);
+  grid-template-rows: repeat(3, 262px);
+  gap: 10px;
+  margin-top: 35px;
+  margin-left: 35px;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.grid_item img {
+  width: 250px;
+  height: 140px;
+}
+
+.desc_itens_main {
+  width: 249px;
+  height: 74px;
+  display: flex;
+  gap: 10px;
+}
+
+.desc_itens_main img {
+  width: 42px;
+  height: 42px;
+}
+
+.titulo_main {
+  width: 197px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 7px;
+  display: flex;
+  flex-direction: column;
+}
+
+.desc_main {
+  width: 197px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.vizualiza_desc_main {
+  margin-top: 7px;
+}
